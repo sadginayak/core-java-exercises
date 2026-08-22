@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-23T00:46:31 CEST" name="Default suite" finished-at="2026-08-23T00:46:31 CEST" duration-ms="74">
+    <groups>
+    </groups>
+    <test started-at="2026-08-23T00:46:31 CEST" name="Default test" finished-at="2026-08-23T00:46:31 CEST" duration-ms="74">
+      <class name="com.corejava.strings.PalindromeWithStringBuilderTest">
+        <test-method signature="isCharPalindrom_test()[pri:0, instance:com.corejava.strings.PalindromeWithStringBuilderTest@564fabc8]" started-at="2026-08-23T00:46:31 CEST" name="isCharPalindrom_test" finished-at="2026-08-23T00:46:31 CEST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCharPalindrom_test -->
+        <test-method signature="isNotPalindrom_test()[pri:0, instance:com.corejava.strings.PalindromeWithStringBuilderTest@564fabc8]" started-at="2026-08-23T00:46:31 CEST" name="isNotPalindrom_test" finished-at="2026-08-23T00:46:31 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotPalindrom_test -->
+        <test-method signature="isNullPalindrom_test()[pri:0, instance:com.corejava.strings.PalindromeWithStringBuilderTest@564fabc8]" started-at="2026-08-23T00:46:31 CEST" name="isNullPalindrom_test" finished-at="2026-08-23T00:46:31 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNullPalindrom_test -->
+        <test-method signature="isNumericPalindrom_test()[pri:0, instance:com.corejava.strings.PalindromeWithStringBuilderTest@564fabc8]" started-at="2026-08-23T00:46:31 CEST" name="isNumericPalindrom_test" finished-at="2026-08-23T00:46:31 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNumericPalindrom_test -->
+        <test-method signature="isPalindrom_test()[pri:0, instance:com.corejava.strings.PalindromeWithStringBuilderTest@564fabc8]" started-at="2026-08-23T00:46:31 CEST" name="isPalindrom_test" finished-at="2026-08-23T00:46:31 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPalindrom_test -->
+        <test-method signature="isSpacePalindrom_test()[pri:0, instance:com.corejava.strings.PalindromeWithStringBuilderTest@564fabc8]" started-at="2026-08-23T00:46:31 CEST" name="isSpacePalindrom_test" finished-at="2026-08-23T00:46:31 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSpacePalindrom_test -->
+        <test-method signature="isUpperCasePalindrom_test()[pri:0, instance:com.corejava.strings.PalindromeWithStringBuilderTest@564fabc8]" started-at="2026-08-23T00:46:31 CEST" name="isUpperCasePalindrom_test" finished-at="2026-08-23T00:46:31 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUpperCasePalindrom_test -->
+      </class> <!-- com.corejava.strings.PalindromeWithStringBuilderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
