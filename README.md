@@ -1,4 +1,4 @@
-# Core Java Exercises & Interview Toolkit
+# Core Java Exercises
 
 A robust collection of core Java utility classes, data structure implementations, and algorithmic problem-solving modules paired with TestNG unit test suites.
 
