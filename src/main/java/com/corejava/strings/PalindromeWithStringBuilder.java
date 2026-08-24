@@ -22,8 +22,8 @@ public class PalindromeWithStringBuilder {
 		
 		StringBuilder sb= new StringBuilder();
 		
-		for(int i=0;i<=s.length()-1;i++) {
-			sb.append(Character.toLowerCase(s.charAt(i)));
+		for(char c:s.toLowerCase().toCharArray()) {
+			sb.append(c);
 		}
 		
 		String originalStrng=sb.toString();

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.corejava.strings.LastNonRepeatingCharacterUsingMapsTest">
+      <class name="com.corejava.strings.RunLengthEncoderUsingHasMapTest">
         <methods>
-          <include name="testLastNonRepeatingChar_nullString"/>
+          <include name="findNumberOfOccurancesInString_Test"/>
         </methods>
-      </class> <!-- com.corejava.strings.LastNonRepeatingCharacterUsingMapsTest -->
+      </class> <!-- com.corejava.strings.RunLengthEncoderUsingHasMapTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
