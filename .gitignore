@@ -1,1 +1,17 @@
-/target/
+# TestNG output directory
+test-output/
+
+# Maven build and test target directory
+target/
+
+# Gradle build and test results
+build/
+.gradle/
+
+# Extent Reports / HTML reports (if stored locally outside standard output)
+reports/
+extent-reports/
+
+# IDE specific test configurations/logs
+.idea/
+*.log
