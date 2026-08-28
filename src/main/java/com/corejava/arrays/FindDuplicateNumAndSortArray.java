@@ -39,6 +39,13 @@ public class FindDuplicateNumAndSortArray {
 				duplicateNumArray.add(entry.getKey());
 			}
 		}	
+		
+		
+		//System.out.println(sortedArray.size());
+	      //int[] numArray = new int[sortedArray.size()];
+	      //for(int i=0;i<=numArray.length-1;i++){
+	      //  numArray[i]=sortedArray.get(i);
+	      //}
 		return duplicateNumArray.stream()
 				.mapToInt(Integer::intValue)
 				.toArray();
