@@ -1,19 +1,17 @@
 package com.corejava.oop;
-
-import static org.testng.Assert.*;
-
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class BankTest {
 
-    private BankMain bank;
+    private Bank bank;
     private SavingsAccount sampleAccount;
 
     // This runs automatically before every single test method to give us a fresh bank setup
     @BeforeEach
     public void setUp() {
-        bank = new BankMain();
+        bank = new Bank();
         sampleAccount = new SavingsAccount("SA-101", "Sadgi", 1000.0);
     }
 

@@ -3,11 +3,11 @@ package com.corejava.oop;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BankMain {
+public class Bank {
 
 	private Map<String, Account> accounts;
 	
-	public BankMain() {
+	public Bank() {
 		this.accounts= new HashMap<>();
 	}
 	
