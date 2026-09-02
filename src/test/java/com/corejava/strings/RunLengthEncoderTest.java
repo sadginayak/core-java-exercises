@@ -1,5 +1,5 @@
 package com.corejava.strings;
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class RunLengthEncoderTest {

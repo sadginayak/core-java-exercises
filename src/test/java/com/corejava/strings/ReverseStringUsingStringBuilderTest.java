@@ -1,5 +1,5 @@
 package com.corejava.strings;
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 import static org.assertj.core.api.Assertions.assertThat;
 public class ReverseStringUsingStringBuilderTest {

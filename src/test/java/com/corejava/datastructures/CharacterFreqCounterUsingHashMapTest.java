@@ -1,8 +1,5 @@
 package com.corejava.datastructures;
-import org.testng.annotations.*;
-
-import com.corejava.datastructures.CharacterFreqCounterUsingHashMap;
-
+import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class CharacterFreqCounterUsingHashMapTest {
