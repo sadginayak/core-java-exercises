@@ -29,6 +29,7 @@ public class Bank {
         return account;
     }
     
+
     public void transferMoney(String fromAccountNumber,
             String toAccountNumber,
             double amount) {
@@ -44,19 +45,13 @@ public class Bank {
     	}
     	
     	Account sourceAccount = accounts.get(fromAccountNumber);
-        Account targetAccount = accounts.get(toAccountNumber);
-
-        //Withdraw from source
-        sourceAccount.withdraw(amount);
-
-        try {
-            //Attempt to deposit into target
-            targetAccount.deposit(amount);
-        } catch (Exception e) {
-            // ROLLBACK: If deposit fails for any reason, put the money back!
-            sourceAccount.deposit(amount);
-            throw new RuntimeException("Transfer failed due to system error. Funds rolled back.", e);
-        }
+    	Account targetAccount = accounts.get(toAccountNumber);
+    	
+    	if(sourceAccount==null||targetAccount==null) {
+    		throw new IllegalArgumentException("Account does not exist.");
+    	}
+    	sourceAccount.withdraw(amount);
+    	targetAccount.deposit(amount);
     }
 	
 }
