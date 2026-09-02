@@ -28,5 +28,30 @@ public class Bank {
         }
         return account;
     }
+    
+
+    public void transferMoney(String fromAccountNumber,
+            String toAccountNumber,
+            double amount) {
+    	
+    	if(amount<=0) {
+    		throw new IllegalArgumentException("Transfer amount must be greater than zero.");
+    	}
+    	if(fromAccountNumber==null||toAccountNumber==null) {
+    		throw new IllegalArgumentException("Account numbers can not be null.");
+    	}
+    	if(fromAccountNumber.equalsIgnoreCase(toAccountNumber)){
+    		throw new IllegalArgumentException("Source account can not be same as target account.");
+    	}
+    	
+    	Account sourceAccount = accounts.get(fromAccountNumber);
+    	Account targetAccount = accounts.get(toAccountNumber);
+    	
+    	if(sourceAccount==null||targetAccount==null) {
+    		throw new IllegalArgumentException("Account does not exist.");
+    	}
+    	sourceAccount.withdraw(amount);
+    	targetAccount.deposit(amount);
+    }
 	
 }
