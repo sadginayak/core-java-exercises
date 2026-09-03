@@ -106,6 +106,20 @@ The test packages follow the same structure as the production code to make the c
 * Maven Surefire
 * Git / GitHub
 
+## Continuous Integration
+
+The repository uses GitHub Actions to automatically build and test the project when changes are pushed to GitHub.
+
+The workflow:
+
+Checks out the latest code
+Sets up the required Java environment
+Builds the Maven project
+Runs the automated tests
+Reports the test result as part of the GitHub Actions workflow
+
+This allows the tests to be executed automatically instead of relying only on local test execution.
+
 ## Running the Tests
 
 From the project root:
