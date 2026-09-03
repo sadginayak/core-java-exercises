@@ -1,10 +1,7 @@
 package com.corejava.datastructures;
-
+import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
-
-import org.junit.jupiter.api.Test;
-
 public class FindCommonTestIdsTest {
 
 	
